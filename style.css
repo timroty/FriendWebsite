@@ -1,1 +1,165 @@
 
+'html{
+ height: 100%;
+ width: 100%;
+}
+body{
+ width: 100%;
+ height: 100%;
+}
+
+#header {
+  background-image: URL('./images/slider1.jpg');
+  height: 95%;
+
+    /* Center and scale the image nicely */
+     background-position: center;
+    background-repeat: no-repeat;
+  background-size:cover;
+    background-attachment: fixed;
+}
+
+#name {
+padding-top: 40vh;
+padding-left: 5vh;
+font-size: 400%;
+color: white;
+text-shadow: 1px 1px 2px darkGray;
+
+
+}
+
+#fontawesome{
+  color: white;
+  padding-left: 5vh;
+  font-size: 5vh;
+}
+
+#Description {
+  color: white;
+  padding-left: 5vh;
+
+  font-size:100%;
+  text-shadow: 1px 1px 2px darkGray;
+  font-family: 'Roboto', sans-serif;
+}
+#about{
+  margin-top: 10%;
+  padding-left: 10%;
+  padding-right: 12%;
+}
+#texts{
+  margin-top: 10%;
+vertical-align: middle;
+
+}
+#text {
+ text-align: left;
+ color: black;
+font-family: 'Poppins', sans-serif;
+ font-size: 250%;
+ font-weight: bold;
+}
+
+#text2 {
+ text-align: left;
+ color: darkGray;
+font-family: 'Poppins', sans-serif;
+ font-size: 150%;
+}
+
+#headshot {
+  height: 70%
+}
+
+#myWork{
+  background-color: #212223;
+  height: auto;
+  margin-top: 10%;
+}
+#contact{
+background-image: linear-gradient(to right, #42f474, #41aff4);
+width: 30%;
+margin-top: 10%;
+border-radius: 20px;
+text-align: center;
+text
+
+}
+#button{
+  color: white;
+font-size: 150%;
+font-family: 'Poppins', sans-serif;
+}
+
+#workheader{
+  margin-top: 5%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size:350%;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#workheader2{
+
+  color: lightgray;
+  font-family: 'Poppins', sans-serif;
+  font-size:150%;
+margin-bottom: 5%;
+  text-align: center;
+
+}
+
+#card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 45vh;
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 1px 10px #888888;
+margin-bottom: 13%;
+}
+#song{
+  height: 45vh;
+}
+#SongName{
+font-family: 'Poppins', sans-serif;
+  font-size: 220%;
+  color: gray;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+#contactpage{
+  height: 40vh;
+
+}
+#contactme {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 270%;
+
+
+}
+
+#sociallinks{
+  margin-right: 15vh;
+  margin-left: 15vh;
+  text-align: center;
+  font-size: 13vh;
+}
+
+#bottomliner {
+  background-color: black;
+  width: auto;
+  height: 25px;
+  text-align: center;
+  align-items: center;
+}
