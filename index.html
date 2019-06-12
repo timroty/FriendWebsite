@@ -2,7 +2,7 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="file:///Users/timroty/Documents/GitHub/FriendWebsite/style.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" href = "./style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <html>
@@ -14,84 +14,66 @@
 <body>
   <div id = "header">
     <h1 id  = "name"> Ted Bordeau </h1>
+    <div class="row" >
     <div id = "fontawesome">
-        <a href="https://www.facebook.com/profile.php?id=100009416524153">
-
-    <i class="fab fa-facebook-square" style="text-decoration: none;
-    background-color: none;"></i>
-          </div>
+        <a id = "fontLink" href="https://www.facebook.com/profile.php?id=100009416524153">
+          <i class="fab fa-facebook-square"> </i>
         </a>
-        <a href="https://www.instagram.com/tedbordeau/">
-          <div id = "linkstyle">
-    <i class="fab fa-instagram" ></i>
-  </div>
-</a>
-<a href="https://soundcloud.com/user-368398088-543809418/sets/demos/s-VjCMu">
-  <div id = "linkstyle">
-    <i class="fab fa-soundcloud"></i>
-  </div>
-</a>
-<a href="https://www.youtube.com/watch?v=rEcNNLmykpU&feature=youtu.be">
-  <div id = "linkstyle">
-    <i class="fab fa-youtube"></i>
-  </div>
-</a>
-<a href="#concerts">
-  <div id = "linkstyle">
-    <i class="fas fa-calendar-alt"></i>
-  </div>
-</a>
-
-    <h3 id = "Description"> Singer, Songwriter, Performer <h3>
-  </div>
-  </div>
+        <a id = "fontLink" href = "https://www.instagram.com/tedbordeau/">
+          <i class="fab fa-instagram"> </i>
+        </a>
+        <a id = "fontLink" href="https://soundcloud.com/user-368398088-543809418/sets/demos/s-VjCMu">
+          <i class="fab fa-soundcloud"></i>
+        </a>
+        <a id = "fontLink" href="https://www.youtube.com/watch?v=rEcNNLmykpU&feature=youtu.be">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a id = "fontLink" href="#concerts">
+          <i class="fas fa-calendar-alt"></i>
+        </a>
+    </div>
+      <h3 id = "Description"> Singer, Songwriter, Performer <h3>
+    </div>
+    </div>
 
   <div id = "about">
-<div class="row" >
-  <div class="col-md-6">
-    <div id = 'fullPic'>
-      <img id="headshot" src="./images/IMG_7379.jpg">
-    </div>
+    <div class="row" >
+      <div class="col-md-6">
+        <div id = 'fullPic'>
+          <img id="headshot" src="./images/IMG_7379.jpg">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id = "aboutText">
+          <div class="row">
+            <h3 id ="aboutTitle"> About Ted </h3>
+            <h5 id ="aboutBio" >
+              Ted Bordeau is a Kansas City native currently based in LA. He began playing the piano at age five, teaching himself classics by Billy Joel, Elton John, and the Beatles. By age 12, Ted was already running the local bar circuit as a drummer in the folk rock band Casey’s Train. At age 14, he developed a solo act, playing and singing piano bar tunes around Kansas City. Today, Ted splits his time between Los Angeles, where he is studying songwriting at USC’s prestigious Thornton School of Music, and Kansas City, where he fronts his own classic rock band Joyride.
+            </h5>
+          </div>
 
-  </div>
-    <div class="col-md-6">
-      <div id = "aboutText">
-        <div class="row">
-      <h3 id ="aboutTitle" >
-            About Ted
-      </h3>
-      <h5 id ="aboutBio" >
-        Ted Bordeau is a Kansas City native currently based in LA. He began playing the piano at age five, teaching himself classics by Billy Joel, Elton John, and the Beatles. By age 12, Ted was already running the local bar circuit as a drummer in the folk rock band Casey’s Train. At age 14, he developed a solo act, playing and singing piano bar tunes around Kansas City. Today, Ted splits his time between Los Angeles, where he is studying songwriting at USC’s prestigious Thornton School of Music, and Kansas City, where he fronts his own classic rock band Joyride.
-      </h5>
-    </div>
-
-<div class="row">
-  <a href="#contactPage">
-  <div style="display: table; height: auto; overflow: hidden;" id = "contact">
-    <div style="display: table-cell; vertical-align: middle;">
-      <div>
-<h4 id = "button">Contact Me  </h4>
+          <div class="row">
+            <a href="#contactPage">
+              <div style="display: table; height: auto; overflow: hidden;" id = "contact">
+                <div style="display: table-cell; vertical-align: middle;">
+                  <div>
+                    <h4 id = "button">Contact Ted</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </a>
   </div>
-  </div>
-    </div>
-  </div>
-</div>
-
-  </div>
-
   <div id = "concerts">
-    <h3 id ="concertsTitle" >
-          Upcoming Shows
-    </h3>
-    <div class="responsiveCal">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dGltcm90eTEzQGdtYWlsLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=c3VxNWk4MjNmMm9tOWE0OGRxamg1aWd0NnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;color=%234285F4&amp;color=%23D50000&amp;showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showNav=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <h3 id ="concertsTitle" > Upcoming Shows </h3>
+      <div class="responsiveCal">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dGltcm90eTEzQGdtYWlsLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=c3VxNWk4MjNmMm9tOWE0OGRxamg1aWd0NnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;color=%234285F4&amp;color=%23D50000&amp;showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showNav=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
     </div>
-  </div>
-
-  <div id = "myWork">
+    <div id = "myWork">
       <div class="row">
         <h1 id = "workheader">Recent Works </h1>
         <h3 id = "workheader2"> Check out the latest released songs </h3>
@@ -105,14 +87,14 @@
         </div>
         <div class="col-sm-4">
             <div id = "card">
-              <img id="song" style=""src=https://i1.sndcdn.com/artworks-000538731345-zw4d43-t500x500.jpg> </img>
-  <h3 id = "SongName"> What Do You Think </h3>
+          
+              <h3 id = "SongName"> What Do You Think </h3>
             </div>
         </div>
         <div class="col-sm-4">
             <div id = "card">
               <img id="song" style=""src=https://trenthoppe.github.io/assets/img/Albums/SaturationII.jpg> </img>
-  <h3 id = "SongName"> SaturationII </h3>
+              <h3 id = "SongName"> SaturationII </h3>
             </div>
         </div>
       </div>
@@ -152,20 +134,14 @@
     <div class="col-sm-3">
         <a href="https://www.youtube.com/watch?v=rEcNNLmykpU&feature=youtu.be">
         <h4>YouTube </h4>
-      </a>
+        </a>
+      </div>
     </div>
-
   </div>
 
-</div>
-
-
-
-<div id = "bottomliner">
-
-  <h6 style = "color:white;"> Ted Bordeau 2019</h6>
-
-</div>
+  <div id = "bottomliner">
+    <h6 style = "color:white;"> Ted Bordeau 2019</h6>
+  </div>
 
 </body>
 </html>

@@ -6,7 +6,7 @@ html{
 body{
  width: 100%;
  height: 100%;
-background-color: #f9f9f9;
+ background-color: #f9f9f9;
 }
 
 .header {
@@ -26,30 +26,27 @@ background-color: #f9f9f9;
 }
 
 #name {
+margin-top: 0;
 padding-top: 40vh;
 padding-left: 5vh;
-font-size: 400%;
+font-size:500%;
 color: white;
 text-shadow: 1px 1px 2px darkGray;
-
 }
 
 #fontawesome{
   color: white;
-  padding-left: 5vh;
-  font-size: 5vh;
+  padding-left: 8vh;
+  font-size: 350%;
 }
-
-
-#linkstyle{
-  text-decoration: none;
-  background-color: none;
+#fontLink{
+  color: white;
 }
 
 #Description {
   color: white;
-  padding-left: 5vh;
-  font-size:100%;
+  padding-left: 8vh;
+  font-size:150%;
   text-shadow: 1px 1px 2px darkGray;
   font-family: 'Roboto', sans-serif;
 }
@@ -149,7 +146,7 @@ height: 550px;
 
   color: lightgray;
   font-family: 'Poppins', sans-serif;
-  font-size:10%;
+  font-size: 150%;
   margin-bottom: 3%;
   text-align: center;
 
