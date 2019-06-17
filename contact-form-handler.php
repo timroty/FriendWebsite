@@ -11,7 +11,11 @@ $email_body = "Name: $name\n".
 
 $to = "timroty13@gmail.com";
 $headers = "Reply-To: $visitor_email \r\n";
-mail($to,$email_subject,$email_body,$headers);
 
-header("Location: index.html");
- ?>
+if (@mail($to,$email_subject,$email_body,$headers))
+{
+    echo 'The message has been sent.';
+}else{
+    echo 'failed';
+}
+\?>
