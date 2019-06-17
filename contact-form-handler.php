@@ -10,7 +10,7 @@ $email_body = "Name: $name\n".
             "Message: $message.\n";
 
 $to = "timroty13@gmail.com";
-$headers .= "Reply-To: $visitor_email \r\n";
+$headers = "Reply-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
 
 header("Location: index.html");
