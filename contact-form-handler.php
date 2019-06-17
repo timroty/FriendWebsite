@@ -13,7 +13,7 @@ $headers = "Reply-To: $visitor_email \r\n";
 if (@mail($to,$email_subject,$email_body,$headers))
 {
     echo "The message has been sent.";
-}else{
+} else{
     echo "failed";
 }
 ?>
