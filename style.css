@@ -61,15 +61,17 @@ text-shadow: 1px 1px 1px black;
 }
 #about{
   margin-top: 6em;
-  padding-left: 10em;
-  padding-right: 10em;
+  text-align: center;
+  align-items: center;
 
 }
 #aboutText{
   margin-top: 5%;
   vertical-align: middle;
-
+  margin-left: 5em;
+  margin-right: 5em;
 }
+
 #aboutTitle {
   text-align: left;
   color: black;
@@ -83,6 +85,7 @@ text-shadow: 1px 1px 1px black;
  color: #707070;
  font-family: 'Poppins', sans-serif;
  font-size: 1.5em;
+ width: 100%;
 }
 
 #headshot {
