@@ -39,13 +39,14 @@ padding-top: 38vh;
 padding-left: 5vh;
 font-size: 4em;
 color: white;
-text-shadow: 1px 1px 2px darkGray;
+text-shadow: 1px 1px 1px black;
 }
 
 #fontawesome{
   color: white;
   padding-left: 8vh;
   font-size: 3.2em;
+  text-shadow: 1px 1px 1px black;
 }
 #fontLink{
   color: white;
@@ -54,8 +55,8 @@ text-shadow: 1px 1px 2px darkGray;
 #Description {
   color: white;
   padding-left: 8vh;
-  font-size: 2em;
-  text-shadow: 1px 1px 2px darkGray;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 1px black;
   font-family: 'Roboto', sans-serif;
 }
 #about{
@@ -86,6 +87,7 @@ text-shadow: 1px 1px 2px darkGray;
 
 #headshot {
   height: 32em;
+  text-align: center;
 }
 
 
