@@ -35,9 +35,9 @@ html{
 
 #name {
 margin-top: 0px;
-padding-top: 40vh;
+padding-top: 38vh;
 padding-left: 5vh;
-font-size: 5em;
+font-size: 4em;
 color: white;
 text-shadow: 1px 1px 2px darkGray;
 }
@@ -45,7 +45,7 @@ text-shadow: 1px 1px 2px darkGray;
 #fontawesome{
   color: white;
   padding-left: 8vh;
-  font-size: 3.5em;
+  font-size: 3.2em;
 }
 #fontLink{
   color: white;
@@ -54,7 +54,7 @@ text-shadow: 1px 1px 2px darkGray;
 #Description {
   color: white;
   padding-left: 8vh;
-  font-size: 3em;
+  font-size: 2em;
   text-shadow: 1px 1px 2px darkGray;
   font-family: 'Roboto', sans-serif;
 }
