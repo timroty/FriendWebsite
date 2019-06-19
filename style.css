@@ -61,8 +61,8 @@ text-shadow: 1px 1px 1px black;
 }
 #about{
   margin-top: 6em;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 10em;
+  padding-right: 10em;
 
 }
 #aboutText{
@@ -86,8 +86,10 @@ text-shadow: 1px 1px 1px black;
 }
 
 #headshot {
-  height: 32em;
+  max-width: 30em;
+  align-self: center;
   text-align: center;
+  width: 100%;
 }
 
 
