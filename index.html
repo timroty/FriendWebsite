@@ -103,13 +103,21 @@
     <h3 id = "contactTitle" > Contact Links: <h3>
       <h6 id = "email"> Email: t.bordeau@yahoo.com </h6>
           <div class= "contact-from">
-              <form id = "contact-form" method="post" action = "contact-form-handler.php">
-                <input name = "name" type = "text" class = "form-control" placeholder="Your Name" required><br>
-                <input name = "email" type = "email" class = "form-control" placeholder="Your Email" required><br>
-                <input name = "message" class = "form-control" placeholder="Message" rows = "4" required></textarea><br>
-                <input type = "submit" class = "form-control submit"  value = "SEND MESSAGE">
-              </form>
-            </div>
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form>
+          </div>
 
 
   <div class="row">
