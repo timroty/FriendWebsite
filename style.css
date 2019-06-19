@@ -35,7 +35,7 @@ html{
 margin-top: 0px;
 padding-top: 40vh;
 padding-left: 5vh;
-font-size:500%;
+font-size: 6em;
 color: white;
 text-shadow: 1px 1px 2px darkGray;
 }
@@ -43,7 +43,7 @@ text-shadow: 1px 1px 2px darkGray;
 #fontawesome{
   color: white;
   padding-left: 8vh;
-  font-size: 350%;
+  font-size: 4em;
 }
 #fontLink{
   color: white;
@@ -79,11 +79,11 @@ text-shadow: 1px 1px 2px darkGray;
  text-align: left;
  color: #707070;
  font-family: 'Poppins', sans-serif;
- font-size: 150%;
+ font-size: 1.5em;
 }
 
 #headshot {
-  height: 40vw;
+  height: 38em;
 }
 
 
@@ -97,7 +97,7 @@ text-align: center;
 
 #button{
 color: white;
-font-size: 150%;
+font-size:1.7em;
 font-family: 'Poppins', sans-serif;
 }
 
