@@ -57,7 +57,7 @@ text-shadow: 1px 1px 2px darkGray;
   font-family: 'Roboto', sans-serif;
 }
 #about{
-  margin-top: 10%;
+  margin-top:6em;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -103,7 +103,7 @@ font-family: 'Poppins', sans-serif;
 
 #concerts {
 text-align: center;
-margin-top: 20vh;
+margin-top: 7em;
 }
 
 #concertsTitle{
