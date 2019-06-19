@@ -175,7 +175,7 @@ responsiveVideo {
 position:static;
 overflow: hidden;
 align-content: center;
-max-width: 10vw;
+max-width: 10em;
 }
 
 .responsiveVideo iframe {
@@ -183,7 +183,7 @@ align-self: center;
 padding-bottom: 2%;
 top:0;
 left: 0;
-width: 400px;
+width: 80%;
 height: 315px;
 }
 
