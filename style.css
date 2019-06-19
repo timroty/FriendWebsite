@@ -83,7 +83,7 @@ text-shadow: 1px 1px 2px darkGray;
 }
 
 #headshot {
-  height: 70vh;
+  height: 40vw;
 }
 
 
@@ -206,12 +206,30 @@ height: 315px;
   margin-right: auto;
   text-align: center;
 }
+
 #contactTitle {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 5%;
   font-size: 300%;
+}
+
+#contct-form {
+  text-align: center;
+
+}
+
+#formLabel {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    vertical-align: top;
+   text-align: center;
+   line-height: 100%;
+   font-size: 1.1em;
+}
+#email {
+  font-size: 90%;
 }
 
 #sociallinks{
