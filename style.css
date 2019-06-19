@@ -5,6 +5,7 @@ html{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+
 }
  body{
  width: 100%;
@@ -13,6 +14,7 @@ html{
  margin: 0px;
  padding: 0px;
  overflow-x: hidden;
+
 }
 
 .header {
@@ -35,7 +37,7 @@ html{
 margin-top: 0px;
 padding-top: 40vh;
 padding-left: 5vh;
-font-size: 6em;
+font-size: 5em;
 color: white;
 text-shadow: 1px 1px 2px darkGray;
 }
@@ -43,7 +45,7 @@ text-shadow: 1px 1px 2px darkGray;
 #fontawesome{
   color: white;
   padding-left: 8vh;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 #fontLink{
   color: white;
@@ -52,12 +54,12 @@ text-shadow: 1px 1px 2px darkGray;
 #Description {
   color: white;
   padding-left: 8vh;
-  font-size:150%;
+  font-size: 3em;
   text-shadow: 1px 1px 2px darkGray;
   font-family: 'Roboto', sans-serif;
 }
 #about{
-  margin-top:6em;
+  margin-top: 6em;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -71,8 +73,8 @@ text-shadow: 1px 1px 2px darkGray;
   text-align: left;
   color: black;
   font-family: 'Poppins', sans-serif;
- font-size:300%;
- font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #aboutBio {
@@ -83,7 +85,7 @@ text-shadow: 1px 1px 2px darkGray;
 }
 
 #headshot {
-  height: 38em;
+  height: 32em;
 }
 
 
@@ -97,7 +99,7 @@ text-align: center;
 
 #button{
 color: white;
-font-size:1.7em;
+font-size: 1.7em;
 font-family: 'Poppins', sans-serif;
 }
 
