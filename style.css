@@ -73,15 +73,15 @@ text-shadow: 1px 1px 1px black;
 }
 
 #aboutTitle {
-  text-align: left;
+  text-align: middle;
   color: black;
   font-family: 'Poppins', sans-serif;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: bold;
 }
 
 #aboutBio {
- text-align: left;
+ text-align:justify;
  color: #707070;
  font-family: 'Poppins', sans-serif;
  font-size: 1.5em;
@@ -175,6 +175,7 @@ responsiveVideo {
 position:static;
 overflow: hidden;
 align-content: center;
+max-width: 10vw;
 }
 
 .responsiveVideo iframe {
@@ -182,7 +183,7 @@ align-self: center;
 padding-bottom: 2%;
 top:0;
 left: 0;
-width: 500px;
+width: 400px;
 height: 315px;
 }
 
