@@ -4,7 +4,7 @@ html{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  
+overflow-x:scroll;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
@@ -15,7 +15,7 @@ html{
  background-color: #f9f9f9;
  margin: 0px;
  padding: 0px;
-
+overflow-x:scroll;
  scroll-behavior: smooth;
  -webkit-overflow-scrolling: touch;
 }
