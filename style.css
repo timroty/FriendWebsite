@@ -32,8 +32,8 @@ html{
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
-  overflow: visible;
-  position: absolute;
+  position: static;
+
   margin-top: 0px;
   margin-right: 0px;
 }
