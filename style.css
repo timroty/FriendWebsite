@@ -5,6 +5,7 @@ html{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
 }
  body{
@@ -14,7 +15,7 @@ html{
  margin: 0px;
  padding: 0px;
  overflow-x: hidden;
-
+scroll-behavior: smooth;
 }
 
 .header {
@@ -128,6 +129,7 @@ position: relative;
 padding-bottom: 75%;
 height: 100%;
 overflow: hidden;
+overflow-y: scroll;
 }
 
 .responsiveCal iframe {
@@ -176,6 +178,7 @@ position:static;
 overflow: hidden;
 align-content: center;
 max-width: 10em;
+
 }
 
 .responsiveVideo iframe {
