@@ -33,6 +33,7 @@ html{
   background-size:cover;
   background-attachment: fixed;
   overflow: visible;
+  position: absolute;
   margin-top: 0px;
   margin-right: 0px;
 }
