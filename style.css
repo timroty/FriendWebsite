@@ -4,11 +4,9 @@ html{
   height: 100%;
   margin: 0px;
   padding: 0px;
-overflow-x:hidden;
+  overflow-x:hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-
-
 }
  body{
  width: 100%;
@@ -19,8 +17,6 @@ overflow-x:hidden;
  overflow-x:hidden;
  scroll-behavior: smooth;
  -webkit-overflow-scrolling: touch;
-
-
 }
 
 .header {
@@ -33,7 +29,7 @@ overflow-x:hidden;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   position: static;
 
